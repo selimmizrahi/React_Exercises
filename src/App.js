@@ -1,9 +1,8 @@
 import React from "react";
-import PresentList from "./Day2/presentlist";
-import "./Day2/list.css";
+import Alive from "./Day2/alive";
 
 function App() {
-  return <PresentList></PresentList>;
+  return <Alive></Alive>;
 }
 
 export default App;
