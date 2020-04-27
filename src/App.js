@@ -1,24 +1,37 @@
 import React from "react";
-import logo from "./logo.svg";
-import Box1 from "./Day1/Box1";
-import ChildrenBox from "./Day1/Box2";
-import "./Day1/boxes.css";
-// import "./Day1/Boxes.css";
+import "./Day1/App.css";
+import Navigation from "./Day1/navigation";
+import ServiceContent from "./Day1/Body";
+import ImageContent from "./Day1/Body2";
+import user from "./Day1/user.svg";
+import survey from "./Day1/survey.svg";
+import email from "./Day1/email.svg";
 
 function App() {
   return (
     <div className="App">
-      <Box1>
-        {" "}
-        <ChildrenBox>
-          <ChildrenBox class="Box3">
-            <ChildrenBox class="Box4"></ChildrenBox>
-            <ChildrenBox class="Box4"></ChildrenBox>
-          </ChildrenBox>
-        </ChildrenBox>
-      </Box1>
+      <header className="App-header">
+        <Navigation></Navigation>
+        <ServiceContent title="SERVICE"></ServiceContent>
+        <div className="Middlepart">
+          <ImageContent
+            image={user}
+            subtitle="USERS INTERFACE DESIGN"
+            info="Wireframing Prototyping Userbility Testing"
+          ></ImageContent>
+          <ImageContent
+            image={survey}
+            subtitle="CONCEPT AND IDEAS"
+            info="Conceptulization Digital branding Product Stratergy"
+          ></ImageContent>
+          <ImageContent
+            image={email}
+            subtitle="DESIGN AND BRANDING"
+            info="Interaction Design Grafic Design Identity Design"
+          ></ImageContent>
+        </div>
+      </header>
     </div>
   );
 }
-
 export default App;
