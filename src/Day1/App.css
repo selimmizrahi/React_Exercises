@@ -6,3 +6,41 @@
   width: 600px;
   height: 400px;
 }
+
+.BodyContent {
+  background-color: rgb(226, 128, 128);
+  box-sizing: border-box;
+  width: 100vw;
+  height: 50vh;
+  align-self: center;
+  align-items: center;
+}
+
+
+.Body1 {
+  align-self: center;
+  text-align: center;
+  color: white;
+  font-size: 22px;
+  padding-top: 5%;
+  align-items: center;
+}
+
+.Body2 {
+  align-self: center;
+  text-align: center;
+
+}
+
+
+img {
+  vertical-align: middle;
+  border-style: none;
+  height: 200px;
+  padding-left: 4%;
+  /* align-items: center; */
+}
+
+.Middlepart {
+  display: flex;
+}
