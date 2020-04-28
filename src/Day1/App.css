@@ -26,21 +26,90 @@
   align-items: center;
 }
 
-.Body2 {
-  align-self: center;
-  text-align: center;
-
+.fullPage {
+  width: 100vw;
+  height: 100vh;
 }
 
-
-img {
-  vertical-align: middle;
-  border-style: none;
-  height: 200px;
-  padding-left: 4%;
-  /* align-items: center; */
+.topPart {
+  width: 100vw;
+  height: 35vh;
+  background-color: lightblue;
 }
 
-.Middlepart {
+.bottomPart {
+  width: 100vw;
+  height: 65vh;
+  background-color: blue;
+}
+
+.imageToday {
+  height: 180px;
+  width: 180px;
+}
+
+.todayWeatherTopPart {
   display: flex;
+  padding-top: 7%;
+  padding-left: 7%;
+}
+
+.topAndBottomText {
+  color: white;
+  font-weight: 100px;
+}
+
+.midText {
+  color: black;
+  font-weight: 100px;
+  text-align: right;
+  font-size: 20px;
+}
+
+.todayWeatherRightSection {
+  margin: 8%;
+  text-align: right;
+}
+
+.mondayIcon {
+  height: 50px;
+  width: 50px;
+  padding-right: 5%;
+  padding-left: 5%;
+  justify-content: center;
+}
+
+.forecastMonday {
+  display: flex;
+  color: white;
+  font-size: 22px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 6%;
+}
+
+.mondayLeftPart {
+  text-align: right;
+}
+
+.forecastWindHumidityFreeze {
+  text-align: center;
+  padding-left: 35%;
+}
+
+.windSpeed {
+  color: white;
+}
+
+.windIcon {
+  color: lightgreen;
+}
+
+.mondayWind {
+  display: inline-block;
+}
+
+.mondayHumidity {
+  display: inline-block;
+  padding: 5%
 }
