@@ -1,0 +1,51 @@
+body {
+  background-image: url("https://thumbs.dreamstime.com/b/autumn-oak-leaf-fantastic-beautiful-spray-bubbles-blue-background-magic-autumn-blue-background-yellow-oak-leaf-158238643.jpg");
+  background-size: cover;
+}
+
+.main {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.25), rgba(121, 130, 121, 0.0.2));
+  min-height: 100vh;
+}
+
+.chat-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  width: 100%;
+}
+
+.chat-bar {
+  display: block;
+  width: 90%;
+  padding: 15px;
+
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+
+  background-color: white;
+  border-radius: 16px 16px 16px 16px;
+  color: #313131;
+  font-size: 20px;
+  bottom: 0;
+  position: absolute;
+}
+
+.form-text {
+  position: absolute;
+  color: white;
+}
+
+.chatText {
+  color: black;
+  background-color: white;
+  border-radius: 16px 16px 16px 16px;
+  padding: 8px;
+  width: fit-content;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 4px;
+}
